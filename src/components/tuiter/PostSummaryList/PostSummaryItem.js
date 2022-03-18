@@ -22,7 +22,7 @@ const PostSummaryItem = ({
                     <p className="mb-0">{post.title}</p>
                 </div>
     
-                <img src={post.image} className="tuit-preview-image rounded-3"/>
+                <img src={post.image} className="tuit-preview-image rounded-3" alt=""/>
             </div>
         </div>
     );

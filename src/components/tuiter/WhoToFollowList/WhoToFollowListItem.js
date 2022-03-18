@@ -9,7 +9,7 @@ const WhoToFollowListItem = ({
                              }) => {
     return (
         <li className="list-group-item d-flex">
-            <img src={who.avatarIcon} className="profile-img rounded-circle"/>
+            <img src={who.avatarIcon} className="profile-img rounded-circle" alt=""/>
             <span className="flex-fill ms-3">
                 <b>{who.userName}</b>
                 <i className="fa-solid fa-circle-check "></i>

@@ -35,7 +35,7 @@ const ExploreComponent = () => {
             </ul>
             
             <div className="on-image-caption-container">
-                <img src="../../../images/starship.jpg" className="img-fluid"/>
+                <img src="../../../images/starship.jpg" className="img-fluid" alt=""/>
                 <span className="fs-3 ms-2"><b>SpaceX's Starship</b></span>
             </div>
     
