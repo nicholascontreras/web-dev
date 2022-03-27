@@ -1,5 +1,7 @@
 import React from "react";
 
+import ReduxExamples from "./redux-examples";
+
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
@@ -15,10 +17,12 @@ const Labs = () => {
             <Styles/>
             <Classes/>
 
+            <ReduxExamples/>
+
             <Link to="/hello">
                 Hello
             </Link> |
-            <Link to="/tuiter">
+            <Link to="/tuiter/home">
                 Tuiter
             </Link>
         </div>

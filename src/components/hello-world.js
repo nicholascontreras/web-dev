@@ -5,10 +5,10 @@ const HelloWorld = () => {
     return(
         <>
             <h1>Hello World!</h1>
-            <Link to="/">
+            <Link to="/labs">
                 Labs
             </Link> |
-            <Link to="/tuiter">
+            <Link to="/tuiter/home">
                 Tuiter
             </Link>
         </>

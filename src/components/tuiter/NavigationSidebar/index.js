@@ -2,18 +2,18 @@ import React from "react";
 
 import "../css/index.css";
 
-const NavigationSidebar = ({active = 'explore'}) => {
+const NavigationSidebar = ({active}) => {
     return (
         <>
-            <div class="list-group">
-                <div class="list-group-item">
-                    <i class="fa-brands fa-twitter"></i>
+            <div className="list-group">
+                <div className="list-group-item">
+                    <i className="fa-brands fa-twitter"></i>
                 </div>
-                <a href="home.html" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
+                <a href="home" className={`list-group-item list-group-item-action ${active.endsWith('/home') ? 'active' : ''}`}>
                     <i className="fa-solid fa-house-chimney"></i>
                     <span className="d-none d-xl-inline">Home</span>
                 </a>
-                <a href="explore.html" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
+                <a href="explore" className={`list-group-item list-group-item-action ${active.endsWith('/explore') ? 'active' : ''}`}>
                     <i className="fa-solid fa-hashtag"></i>
                     <span className="d-none d-xl-inline">Explore</span>
                 </a>
