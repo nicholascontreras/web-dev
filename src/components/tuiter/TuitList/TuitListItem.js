@@ -1,12 +1,10 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "./TuitStats";
+import {deleteTuit} from "../../../actions/tuits-actions";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
 
     return (
         <div className="list-group">
@@ -30,10 +28,8 @@ const TuitListItem = ({ tuit }) => {
 
                     <TuitStats tuit={tuit}/>
                 </div>
-                <i onClick={() =>
-                    deleteTuit(tuit)}
-                   className="fas fa-remove fa-2x
-                  fa-pull-right"></i>
+                <i className="fas fa-remove fa-2x fa-pull-right"
+                   onClick={() => deleteTuit(dispatch, tuit)}></i>
             </div>
         </div>
     );
