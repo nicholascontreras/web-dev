@@ -14,6 +14,7 @@ export const createTuit = async (dispatch, tuit) => {
 }
 
 export const findAllTuits = async (dispatch) => {
+    console.log("find all tuits");
     const tuits = await service.findAllTuits();
     dispatch({
         type: FIND_ALL_TUITS,
