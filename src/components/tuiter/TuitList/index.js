@@ -7,7 +7,7 @@ const TuitList = () => {
     const tuits = useSelector(state => state.tuits);
     const dispatch = useDispatch();
     useEffect(() => {
-        console.log("running effect");
+        console.log(tuits);
         findAllTuits(dispatch);
     }, [dispatch, tuits]);
 
