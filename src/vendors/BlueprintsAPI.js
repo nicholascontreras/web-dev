@@ -2,12 +2,17 @@ import axios from "axios";
 
 const URL_BASE = "/blueprints-api/";
 
-const get_top_blueprints = () => {
+const getTopBlueprints = async () => {
     const url = URL_BASE + "blueprintSummaries/top/page/1?title=";
-    axios.get(url).then((response) => {
-        console.log(response);
+    const response = await axios.get(url);
+
+    return response["data"]["_data"].map((curBlueprint) => {
+        return {
+            name: curBlueprint["title"],
+            imageURL: "https://imgur.com/" + curBlueprint["imgurImage"]["imgurId"]
+        };
     });
 };
 
-const BlueprintsAPI = {get_top_blueprints};
+const BlueprintsAPI = {getTopBlueprints};
 export default BlueprintsAPI;
