@@ -1,6 +1,6 @@
-const axios = require('axios');
+import axios from "axios";
 
-const URL_BASE = "https://www.factorio.school/api/";
+const URL_BASE = "/blueprints-api/";
 
 const get_top_blueprints = () => {
     const url = URL_BASE + "blueprintSummaries/top/page/1?title=";
