@@ -1,3 +1,5 @@
+import Blueprint from "../components/BlueprintGrid/Blueprint";
+
 const axios = require('axios');
 
 const URL_BASE = "https://www.factorio.school/api/";
@@ -8,4 +10,5 @@ const get_top_blueprints = async () => {
     console.log(response);
 };
 
-export default {get_top_blueprints};
+const BlueprintsAPI = {get_top_blueprints};
+export default BlueprintsAPI;
