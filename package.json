@@ -7,8 +7,12 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "bootstrap": "^4.6.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.3.0",
+    "react-bootstrap-select-dropdown": "^1.3.5",
     "react-dom": "^17.0.2",
+    "react-markdown": "^8.0.3",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
@@ -38,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://nervous-jennings-3d7ee9.netlify.app"
 }

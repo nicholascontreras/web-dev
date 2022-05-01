@@ -3383,7 +3383,7 @@
      * @inner
      */
     shift: {
-      /** @prop {number} order=100 - Index used to define the order of execution */
+      /** @prop {number} order=100 - BlueprintsService used to define the order of execution */
       order: 100,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3430,7 +3430,7 @@
      * @inner
      */
     offset: {
-      /** @prop {number} order=200 - Index used to define the order of execution */
+      /** @prop {number} order=200 - BlueprintsService used to define the order of execution */
       order: 200,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3460,7 +3460,7 @@
      * @inner
      */
     preventOverflow: {
-      /** @prop {number} order=300 - Index used to define the order of execution */
+      /** @prop {number} order=300 - BlueprintsService used to define the order of execution */
       order: 300,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3497,7 +3497,7 @@
      * @inner
      */
     keepTogether: {
-      /** @prop {number} order=400 - Index used to define the order of execution */
+      /** @prop {number} order=400 - BlueprintsService used to define the order of execution */
       order: 400,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3516,7 +3516,7 @@
      * @inner
      */
     arrow: {
-      /** @prop {number} order=500 - Index used to define the order of execution */
+      /** @prop {number} order=500 - BlueprintsService used to define the order of execution */
       order: 500,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3538,7 +3538,7 @@
      * @inner
      */
     flip: {
-      /** @prop {number} order=600 - Index used to define the order of execution */
+      /** @prop {number} order=600 - BlueprintsService used to define the order of execution */
       order: 600,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3573,7 +3573,7 @@
      * @inner
      */
     inner: {
-      /** @prop {number} order=700 - Index used to define the order of execution */
+      /** @prop {number} order=700 - BlueprintsService used to define the order of execution */
       order: 700,
       /** @prop {Boolean} enabled=false - Whether the modifier is enabled or not */
       enabled: false,
@@ -3592,7 +3592,7 @@
      * @inner
      */
     hide: {
-      /** @prop {number} order=800 - Index used to define the order of execution */
+      /** @prop {number} order=800 - BlueprintsService used to define the order of execution */
       order: 800,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3616,7 +3616,7 @@
      * @inner
      */
     computeStyle: {
-      /** @prop {number} order=850 - Index used to define the order of execution */
+      /** @prop {number} order=850 - BlueprintsService used to define the order of execution */
       order: 850,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -3658,7 +3658,7 @@
      * @inner
      */
     applyStyle: {
-      /** @prop {number} order=900 - Index used to define the order of execution */
+      /** @prop {number} order=900 - BlueprintsService used to define the order of execution */
       order: 900,
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -6421,7 +6421,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.3): index.js
+   * Bootstrap (v4.1.3): blueprints-service.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
